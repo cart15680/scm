@@ -1,0 +1,189 @@
+@charset "UTF-8";
+
+ 
+body {
+	  background: #e2e2e2 !important;  
+}
+a {
+  text-decoration: none;
+}
+.bg-primary {
+	background: #009688 !important;
+
+}
+
+.banner {
+	width: 100%;
+	height: 95.5vh;
+	/*background: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)) ,url(../img/banner.jpg);*/
+	background: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)) ,url(../img/bgregistration.jpg);
+	background-size: cover; 
+	color: white; 
+} 
+
+
+.bg-img {
+	width: 100%;
+	height: 95vh;
+	background: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)) ,url(../img/bgregistration.jpg);
+	/* background: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)) ,url(../img/banner.jpg);*/
+	background-size:  cover ;
+  
+}
+
+
+.my-card{
+	padding: 1.25rem;
+	background:white;
+	 
+}
+
+
+.sign-up-error{
+	font-size: .75rem;
+}
+
+
+.loginPage {
+  margin: 0;
+  padding: 0;  
+	width: 100%;
+	height: 95vh;
+	background: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)) ,url(../img/bgregistration.jpg);
+	/* background: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)) ,url(../img/banner.jpg);*/
+	background-size:  cover ;
+}
+#login .container #login-row #login-column #login-box {
+  margin-top: 7.5rem;
+  max-width: 37.5rem;
+  height: 21.875rem;
+  border: 1px solid #9C9C9C;
+  background-color: #EAEAEA;
+}
+#login .container #login-row #login-column #login-box #login-form {
+  padding: 1.25rem;
+}
+#login .container #login-row #login-column #login-box #login-form #register-link {
+  margin-top: -5.3125rem;
+}
+
+
+
+/* sidebar style */
+
+@media only screen and (max-width: 37.5rem ) {
+		
+	.sidebar{
+		width: 80% !important;
+		display: none;
+		background: white;
+		height: 100%;
+		position: fixed;
+		padding-top: 2.8125rem;
+  
+	} 
+
+	.content{ 
+		margin-left: 0% !important; 
+		
+	}
+
+	.sidebar a:hover{
+		background: #A9A9A9;
+	}
+
+}
+
+		
+.sidebar{ 
+	width: 18%;
+	background: #5F9EA0;
+	height: 100%;
+	position: fixed;
+	padding-top: 2.8125rem;
+	z-index: 99999999999;
+ 
+}
+
+.sidebar a{
+	display: block;
+	width: 100%;
+	padding: 1.25rem 1.25rem;
+	text-decoration: none;
+	color: black; 
+}
+
+
+.sidebar a:hover{
+	background: #A9A9A9;
+}
+
+.sidebar .divider{
+	height: .0313rem;
+	width: 100%;
+	background: #e2e2e2;
+	margin-top: .625rem;
+	display: none;
+}
+
+
+
+
+
+
+.content{
+	 
+	  margin-left: 20%;  
+ 
+}
+
+.pointerType{
+	cursor: pointer;
+}
+
+
+.sidebar .crossBtn{
+	position: absolute;
+	top: 0px;
+	right: 2.1875rem;
+	font-size: 2.25rem;
+	cursor: pointer;
+	
+}
+
+.my_contacts_photo{
+	width: 2rem;
+	height: 2rem;
+	object-fit: cover;
+	border-radius: 50%;
+	/*border: .0625rem solid black;*/
+}
+
+
+
+.contact_photo{
+	width: 11.25rem;
+	height:   11.25rem ;
+	object-fit: cover;
+	border-radius: 50%; 
+}
+
+ .search-container{
+	position-anchor: relative;
+ }
+
+ .search-result{
+	position: absolute;
+	background: white;
+	width: 96%;
+	border: 1px solid grey;
+	padding: 10px;
+	display: none;
+
+
+
+
+ }
+
+
+
